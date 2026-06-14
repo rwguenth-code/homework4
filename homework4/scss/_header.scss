@@ -1,0 +1,46 @@
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid $gray-300;
+    background: $white;
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: $gray-700;
+                font-weight: 500;
+
+                &.active {
+                    color: $blue;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.mainbtn {
+    background: $black;
+    color: $white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.otherbtn {
+    background: lightgrey;
+    color: $black;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}

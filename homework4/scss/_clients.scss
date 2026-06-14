@@ -1,0 +1,65 @@
+.clienthero {
+    text-align: center;
+    padding: 80px 0;
+
+    h2 {
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+}
+
+.clientgridsection {
+    h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .clientgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+
+        .clientcard {
+            background: $white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: $shadow;
+            transition: 0.2s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: $shadow-hover;
+            }
+
+            img {
+                height: 160px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            h4 {
+                margin-bottom: 8px;
+            }
+
+            .cardbtn {
+                color: $blue;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.featuredclient {
+    padding: 80px 0;
+
+    .featureflex {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .featureimg img {
+            border-radius: 12px;
+        }
+    }
+}

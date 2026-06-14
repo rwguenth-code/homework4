@@ -1,0 +1,21 @@
+.about {
+    padding: $section-padding;
+
+    .aboutflex {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+
+        .abouttext {
+            h3 {
+                font-size: 1.9rem;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 15px;
+                color: #444;
+            }
+        }
+    }
+}

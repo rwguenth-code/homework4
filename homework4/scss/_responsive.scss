@@ -1,0 +1,45 @@
+@media (max-width: $tablet) {
+
+    .heroflex,
+    .featurecards,
+    .aboutflex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .clientgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: $mobile) {
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .heroflex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heroimg img {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .clientgrid {
+        grid-template-columns: 1fr;
+    }
+
+    .footertop {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+        gap: 25px;
+    }
+}

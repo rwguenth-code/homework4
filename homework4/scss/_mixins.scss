@@ -1,0 +1,14 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin section {
+    padding: $section-padding;
+}
+
+@mixin responsive-img {
+    width: 100%;
+    border-radius: $radius;
+}

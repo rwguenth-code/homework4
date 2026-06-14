@@ -1,0 +1,39 @@
+.features {
+    padding: $section-padding;
+    background: $gray-100;
+    text-align: center;
+
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .subtext {
+        margin-bottom: 40px;
+        color: $gray-500;
+    }
+
+    .featurecards {
+        display: flex;
+        gap: 25px;
+
+        .card {
+            background: $white;
+            padding: 25px;
+            border-radius: $radius;
+            border: 1px solid $gray-300;
+            text-align: left;
+
+            .iconcircle {
+                width: 50px;
+                height: 50px;
+                background: #eef3ff;
+                color: $blue;
+                border-radius: 50%;
+                @include flex-center;
+                font-size: 1.4rem;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
