@@ -5,23 +5,21 @@ The goal of this assignment was to convert the existing TechFlow website into a 
 
 ---
 
-## 🔗 Live Website (Web4 Link)
+## Live Website (Web4 Link)
 
 **Web4 URL:**  
-https://web4.example.edu/~yourusername/homework4/  
-_(Replace with your actual Web4 link before submitting.)_
+https://web4.example.edu/~yourusername/homework4/
 
 ---
 
-## 🔗 GitHub Repository
+## GitHub Repository
 
 **GitHub Repo:**  
-https://github.com/yourusername/homework4  
-_(Replace with your actual GitHub repo link.)_
+https://github.com/yourusername/homework4
 
 ---
 
-## 📌 Assignment Instructions (as required in README)
+## Assignment Instructions
 
 **The purpose of this assignment is to convert your existing TechFlow website to use Sass.**  
 You must:
@@ -36,7 +34,3 @@ You must:
 - Upload the project to Web4
 - Add the project to GitHub
 - Include the assignment instructions and Web4 link in this README
-
----
-
-## 📁 Project Structure
