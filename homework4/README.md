@@ -8,14 +8,14 @@ The goal of this assignment was to convert the existing TechFlow website into a 
 ## Live Website (Web4 Link)
 
 **Web4 URL:**  
-https://web4.example.edu/~yourusername/homework4/
+https://in-info-web4.luddy.indianapolis.iu.edu/~rwguenth/homework4/index.html
 
 ---
 
 ## GitHub Repository
 
 **GitHub Repo:**  
-https://github.com/yourusername/homework4
+https://github.com/rwguenth-code/homework4/tree/main
 
 ---
 
@@ -34,3 +34,4 @@ You must:
 - Upload the project to Web4
 - Add the project to GitHub
 - Include the assignment instructions and Web4 link in this README
+
